@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
                 'name' => 'Admin BAC',
                 'email' => 'bac@example.com',
                 'password' => Hash::make('123'),
-                'role' => 2,
+                'role' => 1
             ],
             [
                 'name' => 'Admin Nam',
@@ -33,13 +33,13 @@ class DatabaseSeeder extends Seeder
                 'name' => 'Admin Trung',
                 'email' => 'trung@example.com',
                 'password' => Hash::make('789'),
-                'role' => 4,
+                'role' => 2,
             ],
             [
                 'name' => 'Admin Tong',
                 'email' => 'all@example.com',
                 'password' => Hash::make('123456789'),
-                'role' => 1,
+                'role' => 0,
             ]
 
         ]);
